@@ -5,37 +5,12 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class content_page extends AppCompatActivity{
-    boolean twice;
-
-    @Override
-    public void onBackPressed() {
-
-        if(twice)
-        {
-            Intent intent = new Intent(Intent.ACTION_MAIN);
-            intent.addCategory(Intent.CATEGORY_HOME);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
-            finish();
-            System.exit(0);
-        }
-        twice = true;
-        //super.onBackPressed();
-        Toast.makeText(content_page.this,"Press BACK again to Exit",Toast.LENGTH_SHORT).show();
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                twice = false;
-            }
-        },3000);
-    }
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override

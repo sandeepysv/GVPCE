@@ -20,8 +20,7 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private String userName = "User Dashboard";
     GridLayout mainGrid;
@@ -56,21 +55,28 @@ public class MainActivity extends AppCompatActivity
         if(auth.getCurrentUser() != null) {
             uname = auth.getCurrentUser().getDisplayName();
         }
+
         navUsername.setText(uname);
 
         //get bundles that were passed
         Bundle bundle = getIntent().getExtras();
 
-        if(bundle != null && bundle.isEmpty()){
+        if(bundle != null && bundle.isEmpty()) {
             userName = "User Dashboard";
         }
-        else{
-            if (bundle != null) {
-                if(bundle.containsKey("userName")) {
+        else
+        {
+            if (bundle != null)
+            {
+                if(bundle.containsKey("userName"))
+                {
                     navUsername.setText(uname);
                     userName = uname;
                 }
-                else{  userName = "User Dashboard"; }
+                else
+                {
+                    userName = "User Dashboard";
+                }
             }
         }
 
@@ -90,7 +96,6 @@ public class MainActivity extends AppCompatActivity
                     Intent intent = new Intent(MainActivity.this,content_page.class);
                     intent.putExtra("info",""+finalI);
                     startActivity(intent);
-
                 }
             });
         }

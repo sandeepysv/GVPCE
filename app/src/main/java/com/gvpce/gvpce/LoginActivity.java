@@ -168,7 +168,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                             Toast.makeText(LoginActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                         }
-
                         // ...
                     }
                 });
@@ -179,13 +178,13 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     }
 
-    private void showView (View... views){
+    private void showView (View... views) {
         for(View v: views){
             v.setVisibility(View.VISIBLE);
         }
     }
 
-    private void hideView (View... views){
+    private void hideView (View... views) {
         for(View v: views){
             v.setVisibility(View.INVISIBLE);
         }
