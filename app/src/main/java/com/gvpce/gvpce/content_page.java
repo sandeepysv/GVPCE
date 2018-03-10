@@ -76,77 +76,15 @@ public class content_page extends AppCompatActivity{
                     url = "http://gvpce.ac.in/admin.html";
                     break;
                 case "nav6":
-                    url = "http://gvpce.ac.in/naacaccre.html";
+                    url = "http://gvpce.ac.in/acacoun.html";
                     break;
                 case "nav7":
                     url = "http://gvpce.ac.in/";
                     break;
                 case "nav8":
-                    url = "http://gvpce.ac.in/acacoun.html";
+                    url = "http://gvpce.ac.in/";
                     break;
                 case "nav9":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav10":
-                    url = "http://gvpce.ac.in/btechregsyl16-17&17-18.html";
-                    break;
-                case "nav11":
-                    url = "http://gvpce.ac.in/INSTITUTIONHGHLIGHTS.pdf";
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.parse(url), "application/pdf");
-                    try{
-                        webView.getContext().startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        //user does not have a pdf viewer installed
-                    }
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav12":
-                    url = "http://gvpce.ac.in/naacssr.pdf";
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.parse(url), "application/pdf");
-                    try{
-                        webView.getContext().startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        //user does not have a pdf viewer installed
-                    }
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav13":
-                    url = "http://gvpce.ac.in/coursesoffered.html";
-                    break;
-                case "nav14":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav15":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav16":
-                    url = "http://gvpce.ac.in/iqacmembers.html";
-                    break;
-                case "nav17":
-                    url = "http://gvpce.ac.in/CFSRActivities.pdf";
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.parse(url), "application/pdf");
-                    try{
-                        webView.getContext().startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        //user does not have a pdf viewer installed
-                    }
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav18":
-                    url = "http://gvpce.ac.in/cfi.pdf";
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.parse(url), "application/pdf");
-                    try{
-                        webView.getContext().startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        //user does not have a pdf viewer installed
-                    }
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav19":
                     url = "http://gvpce.ac.in/gvplias.pdf";
                     intent = new Intent(Intent.ACTION_VIEW);
                     intent.setDataAndType(Uri.parse(url), "application/pdf");
@@ -157,42 +95,13 @@ public class content_page extends AppCompatActivity{
                     }
                     url = "http://gvpce.ac.in/";
                     break;
-                case "nav20":
-                    url = "http://ieeesbgvp.zohosites.com/";
-                    break;
-                case "nav21":
+                case "nav10":
                     url = "http://gvpce.ac.in/skill.html";
                     break;
-                case "nav22":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav23":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav24":
+                case "nav11":
                     url = "http://gvpce.ac.in/supervisors.html";
                     break;
-                case "nav25":
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav26":
-                    url = "http://gvpce.ac.in/disvisitors.html";
-                    break;
-                case "nav27":
-                    url = "http://gvpce.ac.in/DistinguishedAlumni.pdf";
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.parse(url), "application/pdf");
-                    try{
-                        webView.getContext().startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        //user does not have a pdf viewer installed
-                    }
-                    url = "http://gvpce.ac.in/";
-                    break;
-                case "nav28":
-                    url = "http://gvpce.ac.in/gallery.html";
-                    break;
-                case "nav29":
+                case "nav12":
                     url = "http://gvpce.ac.in/MandatoryDisclosure2016.pdf";
                     intent = new Intent(Intent.ACTION_VIEW);
                     intent.setDataAndType(Uri.parse(url), "application/pdf");
@@ -203,7 +112,7 @@ public class content_page extends AppCompatActivity{
                     }
                     url = "http://gvpce.ac.in/";
                     break;
-                case "nav30":
+                case "nav13":
                     url = "http://gvpce.ac.in/otherinst.html";
                     break;
             }

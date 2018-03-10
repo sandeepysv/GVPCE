@@ -26,103 +26,23 @@
             tools:ignore="HardcodedText" />
         <item
             android:id="@+id/nav6"
-            android:title="Accreditation Status"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav7"
             android:title="Board of Studies"
             tools:ignore="HardcodedText" />
         <item
+            android:id="@+id/nav7"
+            android:title="IT Faculty"
+            tools:ignore="HardcodedText" />
+        <item
             android:id="@+id/nav8"
-            android:title="Academic Council"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav9"
-            android:title="Committees"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav10"
-            android:title="Regulations &amp; Syllabi"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav11"
-            android:title="Achievements"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav12"
-            android:title="SSR for NAAC"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav13"
-            android:title="Admissions"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav14"
-            android:title="Departments"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav15"
-            android:title="Faculty"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav16"
-            android:title="IQAC"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav17"
-            android:title="CFSR"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav18"
-            android:title="Center for Innovation"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav19"
             android:title="GVP-LIAS"
             tools:ignore="HardcodedText" />
         <item
-            android:id="@+id/nav20"
-            android:title="IEEE Student Branch"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav21"
+            android:id="@+id/nav9"
             android:title="Skill Development Activities"
             tools:ignore="HardcodedText" />
         <item
-            android:id="@+id/nav22"
-            android:title="Facilities"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav23"
-            android:title="Research &amp; Consultancy"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav24"
+            android:id="@+id/nav10"
             android:title="Research Supervisors"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav25"
-            android:title="College Magazine"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav26"
-            android:title="Distinguish Visitors"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav27"
-            android:title="Distinguished Alumni"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav28"
-            android:title="Photo Gallery"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav29"
-            android:title="Mandatory Disclosure"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav30"
-            android:title="Other Institutions"
             tools:ignore="HardcodedText" />
     </group>
 
